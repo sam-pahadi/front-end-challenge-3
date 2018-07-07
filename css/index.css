@@ -1,0 +1,103 @@
+body{
+            font-family: 'Titillium Web', sans-serif;
+        }
+        .comment {
+            padding: 20px;
+            background-color: #ccc;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            animation: animateElement linear .5s;
+        }
+
+        .logo {
+            position: relative;
+            top: -6px;
+        }
+
+        .avatar {
+            width: 50px;
+            height: 50px;
+            cursor: pointer;
+            float: left;
+            position: relative;
+        }
+
+        .userName {
+            padding-left: 5rem;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+
+        .userComment {
+            padding-left: 5rem;
+        }
+
+        .timeStamp {
+            font-weight: normal;
+            font-style: italic
+        }
+
+        @keyframes animateElement {
+            0% {
+                opacity: 0;
+                transform: translate(0px, 10px);
+            }
+            100% {
+                opacity: 1;
+                transform: translate(0px, 0px);
+            }
+        }
+
+        #respond {
+            margin-top: 40px;
+        }
+
+        #respond input[type='text'],
+        #respond textarea {
+            margin-bottom: 10px;
+            display: block;
+            width: 90%;
+            border: 1px solid rgba(0, 0, 0, 1);
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            -o-border-radius: 5px;
+            -ms-border-radius: 5px;
+            -khtml-border-radius: 5px;
+            border-radius: 5px;
+            line-height: 2em;
+            padding-left: 23px;
+            font-size: 1rem;
+        }
+
+        .submit {
+            background: #0066A2;
+            color: white;
+            border-style: outset;
+            border-color: #0066A2;
+            height: 50px;
+            width: 150px;
+            text-shadow: none;
+            cursor: pointer
+        }
+
+        .submit:hover {
+            background: #fff;
+            color: #0066A2;
+
+        }
+
+        .likes {
+            padding-left: 80px;
+            padding-top: 14px;
+        }
+
+        .likeButton {
+            cursor: pointer
+        }
+
+        .likeImg {
+            width: 50px;
+            margin-left: 50px;
+            vertical-align: middle;
+        }

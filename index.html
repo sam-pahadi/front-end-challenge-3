@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv='cache-control' content='no-cache'>
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+    <title>Commenting System</title>
+    <link href="css/index.css" rel="stylesheet">
+</head>
+
+<body>
+    <section class="new-to-do">
+
+        <h2>Comments</h2>
+        <div id="post">
+        </div>
+        <hr>
+        <header>
+            <h2>Add Comment</h2>
+        </header>
+        <div id="respond">
+
+            <form id="add-new-task">
+                <label for="name">Name:</label>
+                <input id="name" name="name" type="text" required>
+                <br>
+                <label for="comment">Comment:</label>
+                <textarea id="comment" name="comment" rows="2" required></textarea>
+                <input type="submit" class="submit" value="Post">
+            </form>
+        </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
